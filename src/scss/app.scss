@@ -1,0 +1,116 @@
+@import "config";
+@import "menu";
+
+
+/*CORE STYLING*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+ 
+    height: 100%;
+  background-color: $dark-blue;
+  font-family: 'Montserrat' ;
+  font-weight: 500;
+  line-height: 1.5;
+}
+/*HEDINGS*/
+h1,h2,h3{
+  font-family: Audiowide;
+font-weight: 400;
+color:$text-color;
+&.h1h {font-size: 6rem;}
+&.h2h {font-size: 4rem;}
+&.h3h {font-size: 2rem;}
+ 
+padding: 0.2rem 1rem;
+
+}
+a{
+  color: $text-color;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color:$primary-color;
+  }
+ }
+ ul {
+   list-style: none;
+ }
+
+header {
+  @include background;
+  height: 100vh;
+  width: 100%;
+ 
+}
+
+/*Desctop nav*/
+.nav-large{
+ 
+  text-align: center;
+  position:fixed;
+  width: 100%;
+  padding: 1rem;
+   
+
+  ul {
+    
+    width: 40%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+  }
+}
+.nav-item > .active {
+  border-bottom: 1px solid white;
+}
+/*HAMBURGER menu*/
+#hamburger-menu {
+  position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+/*hero text*/
+.heroText {
+  
+
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    a{
+    color:$text-color;
+     font-size: 2rem;
+     padding: 0.4rem;
+    
+     &:hover {
+      color:$blue-green;
+      @include easeOut}
+      }
+   
+    
+    }
+   
+  
+
+
+ .nav-link {
+   color: $text-color;
+ }
+ 
+
+ .about {
+   background-color:lightblue;
+   height: 100vh;}
+ 
+

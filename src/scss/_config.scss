@@ -1,0 +1,22 @@
+/*colors*/
+$dark-blue :#131227;
+
+$text-color:#fce5f5;
+$primary-color: #bb4774;
+$blue-gray:#476084;
+$blue-green : #135f85;
+$show-header-image : true;
+$header-image : url(../images/hero1.jpg);
+
+/*mixins*/
+@mixin easeOut {
+  transition: all 0.8s ease-out;
+  
+}
+@mixin background{
+@if $show-header-image {
+  &#home {
+    background: $header-image;
+    background-attachment: fixed;
+    background-size: cover;}
+  }}

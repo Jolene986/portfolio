@@ -1,0 +1,140 @@
+#skills{
+    height: 100vh;
+    background-color:$dark-blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.wallpaperbetter.com/wallpaper/625/944/1002/alone-spaces-galaxy-1920%C3%971080-1080P-wallpaper.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.skill-container {
+    width: 95%;
+    margin:0 auto;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    .skill-btns {
+        padding: 1rem;
+        text-align: center;
+        width: 20%;
+        button {
+            outline: none;
+            background-color: transparent;
+            display:block;
+            margin:0 auto;
+            margin-bottom: 1em;
+            width: 100%;
+            font-size: 25px;
+            color:$text-color;
+            text-transform: uppercase;
+            padding: 15px;
+            border:2px solid transparent;
+            border-radius: 3px;
+            cursor: pointer;
+            @include easeOut;
+             &.active {
+                color:$primary-color;
+                text-shadow: 0 0 10px $primary-color;
+                border-color: $pink;
+                box-shadow: 0 0 15px $primary-color;
+              }
+        }
+    }
+
+    .skill-icons-container {
+        width: 60%;
+        min-width: 500px;
+        margin:0 1em;
+        display:grid;
+        grid-template-columns: repeat( auto-fit, minmax(100px, 1fr) );
+       
+        .tooltip{
+            position: relative;
+            display: inline-block;
+           width: 100%;
+            padding: 1rem;
+        &:hover{
+            .tooltip-text {
+                visibility: visible;
+                opacity: 1;
+                transform: translate(-50%, -150%);
+              }
+            } 
+            
+        .skill-icon{
+         
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    width: 80px;
+                    height: 80px;
+                    margin: 0 0.5rem 3rem 0.5rem;
+                    color:darken($primary-color, 15);
+                    cursor: pointer;
+                  
+                    font-size: 2.5rem;
+                    text-decoration: none;
+                 
+                    transition: all 0.15s ease;
+                  
+                    &:hover {
+                      color: darken($primary-color, 10);
+                     
+                  
+                      .tooltip-text {
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate(-50%, -150%);
+                      }
+                    }
+                  
+                   }
+     
+                
+                
+                }
+    }
+
+    img {
+width: 20%;
+    }
+}
+
+/* Tooltips */
+.tooltip-text {
+    text-align: center;
+    width: 100%; 
+    color:$text-color;
+    display: block;
+    position: absolute;
+    top: 16%;
+    left: 65%;
+    padding: 0.8rem 0.2rem;
+    background-color: $dark-blue;
+    border: 3px solid $pink;
+    box-shadow: 0 0 15px $primary-color;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    opacity: 0;
+    pointer-events: none;
+    text-transform: uppercase;
+    transform: translate(-50%, -100%);
+    transition: all 0.3s ease;
+    z-index: 1;
+    &::after {
+        content: " ";
+        position: absolute;
+        top: 104%; /* At the bottom of the tooltip */
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: $pink transparent transparent transparent;
+      }
+  
+  }

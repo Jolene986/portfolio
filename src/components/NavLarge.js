@@ -5,8 +5,8 @@ import { Link, animateScroll as scroll } from 'react-scroll';
   return (
     <nav className='nav-large'>
    
-      <ul className='menu-nav'>
-        <li className='nav-item'>
+      <ul >
+        <li className='nav-item-large'>
           <Link
             className='nav-link'
             activeClass='active'
@@ -19,7 +19,7 @@ import { Link, animateScroll as scroll } from 'react-scroll';
             Home
           </Link>
         </li>
-        <li className='nav-item'>
+        <li className='nav-item-large'>
           <Link
             className='nav-link'
             activeClass='active'
@@ -29,10 +29,10 @@ import { Link, animateScroll as scroll } from 'react-scroll';
             offset={0}
             duration={500}
           >
-            About
+            About Me
           </Link>
         </li>
-        <li className='nav-item'>
+        <li className='nav-item-large'>
           <Link
             className='nav-link'
             activeClass='active'
@@ -45,7 +45,7 @@ import { Link, animateScroll as scroll } from 'react-scroll';
             My Work
           </Link>
         </li>
-        <li className='nav-item'>
+        <li className='nav-item-large'>
           <Link
             className='nav-link'
             activeClass='active'
@@ -58,7 +58,7 @@ import { Link, animateScroll as scroll } from 'react-scroll';
             Skills
           </Link>
         </li>
-        <li className='nav-item'>
+        <li className='nav-item-large'>
           <Link
             className='nav-link'
             activeClass='active'
@@ -68,7 +68,7 @@ import { Link, animateScroll as scroll } from 'react-scroll';
             offset={0}
             duration={500}
           >
-            Contact
+            Contact Me
           </Link>
         </li>
       </ul>

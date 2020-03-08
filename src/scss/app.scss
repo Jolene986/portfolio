@@ -1,5 +1,7 @@
 @import "config";
 @import "menu";
+@import "icon-button";
+@import "skills";
 
 
 /*CORE STYLING*/
@@ -69,48 +71,25 @@ header {
   }
 }
 .nav-item > .active {
-  border-bottom: 1px solid white;
+  color:$primary-color;
+  text-shadow: 0 0 15px $primary-color;
 }
-/*HAMBURGER menu*/
-#hamburger-menu {
-  position: absolute;
-    top: 0;
-    right: 0;
-    
-}
+
 
 /*hero text*/
 .heroText {
-  
-
-  padding: 4rem;
+   padding: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-    a{
-    color:$text-color;
-     font-size: 2rem;
-     padding: 0.4rem;
-    
-     &:hover {
-      color:$blue-green;
-      @include easeOut}
-      }
-   
+  height: 90vh;
     
     }
-   
   
-
-
- .nav-link {
-   color: $text-color;
- }
- 
-
- .about {
-   background-color:lightblue;
+  .about {
+    color:$text-color;
+   background-color:$dark-blue;
    height: 100vh;}
  
 

@@ -6,12 +6,14 @@ import About from './sections/About'
 
 
 import './scss/app.scss';
+import Skills from './sections/Skills';
 
 function App() {
   return (
     <div className="App">
       <Hero />
       <About />
+      <Skills/>
     </div>
   );
 }

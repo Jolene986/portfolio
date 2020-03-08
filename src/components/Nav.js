@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
 
 import { Link, animateScroll as scroll } from 'react-scroll';
-
+import Icons from './Icons';
+import {FaEnvelope} from 'react-icons/fa' 
+import {FaCloudDownloadAlt} from 'react-icons/fa' 
 
 const Nav = () => {
   const [showMenu, setShowMenu]= useState(false);
@@ -18,9 +20,9 @@ const Nav = () => {
       </div>
   
   
-      {/*MOBILE MENU */}
+      {/*MENU */}
       <nav className={['menu', showMenu?'show': null ].join(" ")}>
-        <div className={['menu-branding', showMenu?'show': null ].join(" ")}>
+        <div className={['menu-image', showMenu?'show': null ].join(" ")}>
           <div className="portrait"></div>
         </div>
       <ul className={['menu-nav', showMenu?'show': null ].join(" ")}>
@@ -47,7 +49,7 @@ const Nav = () => {
             offset={0}
             duration={500}
           >
-            About
+            About Me
           </Link>
         </li>
         <li className={['nav-item', showMenu?'show': null ].join(" ")}>
@@ -82,16 +84,32 @@ const Nav = () => {
             activeClass='active'
             to='contact'
             spy={true}
-            smooth={true}
+            smooth={true} 
             offset={0}
             duration={500}
           >
-            Contact
+            Contact Me
           </Link>
         </li>
+         {/*DOWNLOAD BUTTON */}
+<li className={['nav-item', showMenu?'show': null ].join(" ")}><button className={['neon-btn', showMenu?'show': null ].join(" ")} > {<FaCloudDownloadAlt className="btn-icon" />}Download Resume</button></li>
+
+ {/*CONTACT INFO */}
+  <li className={['nav-item', showMenu?'show': null ].join(" ")}>{<FaEnvelope className="icon"/>}<span>EMAIL ME</span></li>
+
+ <li className={['nav-item', showMenu?'show': null ].join(" ")}><a className='nav-mail' href="mailto:jojovanovic86@gmail.com">jojovanovic86@gmail.com</a></li>
+
+        
       </ul>
-    </nav>
-    {/*CONTACT INFO */}
+    
+     
+
+   
+
+    
+    
+  
+  </nav>
     </>
   );
 };

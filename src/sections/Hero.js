@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Nav from '../components/Nav'
 import  HeroText  from '../components/HeroText'
 
 
@@ -8,7 +8,7 @@ import  HeroText  from '../components/HeroText'
   return (<>
    
     <header id="home">
-  <Navbar/>
+  <Nav/>
      
       <HeroText />
       

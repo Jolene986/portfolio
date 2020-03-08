@@ -6,7 +6,7 @@ import img from '../images/about.jpg'
   return (
     <section className="about" id="about">
       <div className="about-container">
-        <div className="about-text">
+        <div className="about-text" id="about-text">
           <p>Highly <span>organized</span>,
 passionate and driven. I
 enjoy games and puzzles. I

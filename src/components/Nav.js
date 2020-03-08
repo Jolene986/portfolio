@@ -26,7 +26,7 @@ const Nav = () => {
           <div className="portrait"></div>
         </div>
       <ul className={['menu-nav', showMenu?'show': null ].join(" ")}>
-        <li className={['nav-item', showMenu?'show': null ].join(" ")}>
+        <li className={['nav-item', showMenu?'show': null ].join(" ")} >
           <Link
             className='nav-link'
             activeClass='active'
@@ -35,11 +35,12 @@ const Nav = () => {
             smooth={true}
             offset={0}
             duration={500}
+            
           >
             Home
           </Link>
         </li>
-        <li className={['nav-item', showMenu?'show': null ].join(" ")}>
+        <li className={['nav-item', showMenu?'show': null ].join(" ")} >
           <Link
             className='nav-link'
             activeClass='active'

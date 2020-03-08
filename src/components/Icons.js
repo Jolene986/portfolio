@@ -8,14 +8,14 @@ import { FaGithub } from 'react-icons/fa';
       <a
         target='_blank'
         rel='noopener noreferrer'
-        href='https://github.com/Jolene986'
+        href='https://www.linkedin.com/in/jovana-jovanovic-dev/'
       >
         <FaLinkedinIn className='hero-icon' />
       </a>
       <a
         target='_blank'
         rel='noopener noreferrer'
-        href='https://www.linkedin.com/in/jovana-jovanovic-dev/'
+        href='https://github.com/Jolene986'
       >
         <FaGithub className='hero-icon' />
       </a>

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import data from '../data'
+import {iconData as data} from '../data'
 
 //images
 import skills from '../images/skills.jpg';

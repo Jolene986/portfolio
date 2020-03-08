@@ -2,6 +2,7 @@
 @import "menu";
 @import "icon-button";
 @import "skills";
+@import "mobile";
 
 
 /*CORE STYLING*/
@@ -26,7 +27,9 @@ h1,h2,h3{
   font-family: Audiowide;
 font-weight: 400;
 color:$text-color;
-&.h1h {font-size: 6rem;}
+&.h1h {font-size: 6rem;
+  text-shadow: 0 0 10px $primary-color;
+}
 &.h2h {font-size: 4rem;}
 &.h3h {font-size: 2rem;}
  
@@ -51,25 +54,14 @@ header {
   width: 100%;
  
 }
-
-/*Desctop nav*/
-.nav-large{
- 
-  text-align: center;
-  position:fixed;
-  width: 100%;
-  padding: 1rem;
-   
-
-  ul {
-    
-    width: 40%;
-    margin:0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-self: center;
-  }
+/*HERO*/
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
 .nav-item > .active {
   color:$primary-color;
   text-shadow: 0 0 15px $primary-color;
@@ -86,10 +78,45 @@ header {
   height: 90vh;
     
     }
-  
+/*ABOUT SECTION*/  
   .about {
     color:$text-color;
    background-color:$dark-blue;
-   height: 100vh;}
+   height: 100vh;
+  .about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    width: 95%;
+    margin:0 auto;
+    height: 90vh;
+    .about-text{
+      width: 50%;
+      font-size: 20px;
+      padding: 0 1em;
+      p:nth-of-type(1) {
+        font-weight: bold;
+        margin-bottom: 0.5em;
+        
+      }
+      p{
+        span{
+          text-shadow: 0 0 10px $primary-color;
+        }
+      }
+     }
+     
+    .about-img{
+      width: 45%;
+      img {
+        width: 100%;
+        border-radius: 3px;
+      }
+    }
+  }
+  
+  
+  }
  
 

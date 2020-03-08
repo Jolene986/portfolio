@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-
 import { Link, animateScroll as scroll } from 'react-scroll';
-import Icons from './Icons';
+
 import {FaEnvelope} from 'react-icons/fa' 
-import {FaCloudDownloadAlt} from 'react-icons/fa' 
+ 
+import cv from '../images/cv.pdf'
 
 const Nav = () => {
   const [showMenu, setShowMenu]= useState(false);
@@ -92,7 +92,7 @@ const Nav = () => {
           </Link>
         </li>
          {/*DOWNLOAD BUTTON */}
-<li className={['nav-item', showMenu?'show': null ].join(" ")}><button className={['neon-btn', showMenu?'show': null ].join(" ")} > {<FaCloudDownloadAlt className="btn-icon" />}Download Resume</button></li>
+<li className={['nav-item', showMenu?'show': null ].join(" ")}><a href={cv} download={cv}><button className={['neon-btn', showMenu?'show': null ].join(" ")} > Download Resume</button></a></li>
 
  {/*CONTACT INFO */}
   <li className={['nav-item', showMenu?'show': null ].join(" ")}>{<FaEnvelope className="icon"/>}<span>EMAIL ME</span></li>

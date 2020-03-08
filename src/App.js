@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App">
       <Hero />
-      <About />
-      <Skills/>
+     { /*<About />
+      <Skills/> */} 
     </div>
   );
 }

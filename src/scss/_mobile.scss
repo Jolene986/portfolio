@@ -1,0 +1,115 @@
+// Widescreens desktop and Laptop
+@include mediaXl {
+
+}
+
+//Smaller Desktop and Laptop
+@include mediaLg {
+  
+    #home {.heroText {
+        padding: 0;
+        line-height: 1;
+      
+      .icon-container a{
+          width: 25px;
+          height: 25px;
+          background-color: transparent;
+          &:hover {
+              box-shadow: none;
+              text-shadow: none;
+          }
+      } 
+    }  }   
+       
+}
+
+//Tablets
+@include mediaMd {
+    //HEADER AND MENU
+    #home{
+        .heroText {
+          padding: 0;
+        line-height: 1;
+        .icon-container a{
+            width: 25px;
+            height: 25px;
+            background-color: transparent;
+            &:hover {
+                box-shadow: none;
+                text-shadow: none;
+            }
+        } 
+      }
+      //menu
+      ul.menu-nav, div.menu-image{
+        float: none;
+       width: 100%;
+       min-height: 0;
+       &.show {
+           transform: translate3d(0,0,0)
+       }
+      }  
+    }
+    .menu-image {
+        height: 25vh;
+        transform: translate3d(100%,0,0);
+        .portrait{
+            background: url('../images/profile-small.png');
+            width: 150px;
+            height: 150px;
+        }
+    }
+    .menu-nav {
+        height: 75vh;
+        transform:translate3d(-100%,0,0);
+        font-size:24px;
+    }
+  
+    
+    .menu {
+        .nav-link {
+        padding: 0.1rem;
+    }
+    .nav-mail {
+        font-size: 18px;
+    }
+    .nav-item {
+        .icon {
+            width: 25px;
+            height: 25px;
+            margin-bottom: -0.1em;
+        }
+        span {
+            font-size: 20px;
+        }
+    }
+        
+    }
+    
+}
+
+//Smartphone
+@include mediaSm {
+    //HEADER AND MENu
+    #home{
+       .heroText {
+            padding: 0;
+          line-height: 1;
+     .h1h {font-size: 3.8rem;
+        }
+      .h2h {font-size: 2rem; }
+      .h3h {font-size: 1.5rem; 
+    margin-top: -5vh;}
+          
+          .icon-container a{
+              width: 20px;
+              height: 20px;
+              background-color: transparent;
+              &:hover {
+                  box-shadow: none;
+                  text-shadow: none;
+              }
+          } 
+        }  
+      }
+}

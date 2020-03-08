@@ -1,5 +1,5 @@
-/*colors*/
-$dark-blue :#131227;
+/*COLORS*/
+$dark-blue :#020310; /*131227*/
 $pink:#db1762;
 $text-color:#fce5f5;
 $primary-color: #b808a0;
@@ -8,7 +8,7 @@ $blue-green : #135f85;
 $show-header-image : true;
 $header-image : url(../images/hero1.jpg);
 
-/*mixins*/
+/*MIXINS*/
 @mixin easeOut {
   transition: all 0.6s ease-out;
   
@@ -20,3 +20,25 @@ $header-image : url(../images/hero1.jpg);
     background-attachment: fixed;
     background-size: cover;}
   }}
+/*Media Query Mixins*/
+@mixin mediaSm {
+  @media screen and (max-width: 500px){
+    @content;
+  }
+}
+@mixin mediaMd {
+  @media screen and (max-width: 768px){
+    @content;
+  }
+}
+
+@mixin mediaLg {
+  @media screen and (min-width:769px) and (max-width: 1170px){
+    @content;
+  }
+}
+@mixin mediaXl {
+  @media screen and (min-width: 1171px){
+    @content;
+  }
+}

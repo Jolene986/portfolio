@@ -23,7 +23,7 @@ import { FaRegLaughBeam } from 'react-icons/fa';
 import { FaPaw } from 'react-icons/fa';
 
 
-const data = [    [{
+export const iconData = [    [{
     icon: FaHtml5,
     text: "html5"
 },
@@ -104,4 +104,4 @@ const data = [    [{
 ]]
 
 
-export default data;
+

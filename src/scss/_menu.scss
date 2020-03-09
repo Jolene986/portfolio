@@ -59,7 +59,7 @@ transform: rotate(180deg);
   &-nav {
     margin:0;
     padding: 0;
-    background: lighten(#160b1b,5);
+    background: darken(/*#160b1b*/ $blue,30);
     transform: translate3d(0, -100%, 0);
     @include easeOut;
     //slide in from the top
@@ -69,7 +69,7 @@ transform: rotate(180deg);
   }
   //Left side
 &-image {
-  background: $dark-blue ;
+  background: darken($primary-color, 30) ;
   transform: translate3d(0, 100%, 0);
   @include easeOut;
   //slide in from the bottom
@@ -84,7 +84,7 @@ transform: rotate(180deg);
     background-position: center center;
     background-size: cover;
     border-radius: 50%;
-    border: 3px solid $pink;
+    border: 3px solid $primary-color;
   }  
 }
 .nav-item {

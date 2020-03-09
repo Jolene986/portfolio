@@ -3,7 +3,8 @@
 @import "icon-button";
 @import "skills";
 @import "top";
-@import "mobile";
+@import "paralax";
+
 
 
 /*CORE STYLING*/
@@ -30,11 +31,14 @@ color:$text-color;
 &.h1h {font-size: 6rem;
   text-shadow: 0 0 10px $primary-color;
 }
-&.h2h {font-size: 4rem;}
-&.h3h {font-size: 2rem;}
+&.h2h {font-size: 4rem; text-shadow: 0 0 10px rgba($dark-blue, 0.8);}
+&.h3h {font-size: 2rem; text-shadow: 0 0 10px rgba($dark-blue, 0.8);}
  
 padding: 0.2rem 1rem;
 
+}
+p {
+  color:$text-color;
 }
 a{
   color: $text-color;
@@ -120,3 +124,4 @@ header {
   }
  
 
+  @import "mobile";

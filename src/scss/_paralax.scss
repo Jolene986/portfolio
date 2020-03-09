@@ -1,0 +1,70 @@
+.paralax {
+   position:  relative;
+    width: 100vw;
+    height: 80vh;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-image: url('https://i.pinimg.com/originals/db/e3/1f/dbe31f3db4125a79e7dde21c3fd4506b.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+   
+    &::after{
+        content:"";
+position: absolute;
+top:0;
+left:0;
+bottom: 0;
+right: 0;
+width: 100%;
+height: 100%;
+
+background-color: rgba($dark-blue, 0.3);
+z-index: 1;
+    }
+    .text {
+        z-index: 10;
+        width: 50%;
+        font-size: 20px;
+        line-height: 1.5;
+        padding: 2rem;
+        color:$blue;
+        box-shadow: 0 0 15px #04a7f8;
+        border-radius: 3px;
+        a {
+            color:$blue;
+            @include textShadowWhite;
+            @include easeOut;
+            &:hover {
+                color:$primary-color;
+                text-shadow: 0 0 10px $pink;
+            }
+        }
+    }
+    .resume {
+        z-index: 10;
+        width: 50%;
+        padding: 2rem;
+        display:flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color:$blue;
+            font-family: 'Montserrat';
+            padding: 0.4rem 1rem;
+        }
+      
+
+        p{
+            color:$blue;
+            @include textShadowWhite;
+            padding: 1rem;
+        }
+    }
+}

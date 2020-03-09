@@ -1,16 +1,18 @@
 import React, {useState,useEffect} from 'react';
-//sections
+//sections $ components
 import Hero from './sections/Hero'
 import About from './sections/About'
-//extra
-
-
-import './scss/app.scss';
 import Skills from './sections/Skills';
-import { Button } from 'react-scroll';
+import { ParalaxResume } from './components/ParalaxResume';
+//css
+import './scss/app.scss';
+//extra
+import {AiFillRocket} from 'react-icons/ai' 
+import {AiOutlineRocket} from 'react-icons/ai'
+
 
 function App() {
-  const [show, setShow]= useState(false)
+  const [show, setShow]= useState(0)
 //add scrol to top 
 const goToTop=()=> {
   window.scrollTo({top: 0, behavior: "smooth"})
@@ -20,9 +22,9 @@ const handeleScroll=()=> {
     document.body.scrollTop > 20 ||
     document.documentElement.scrollTop > 20
   ) {
-    setShow(true)
+    setShow(1)
   } else {
-    setShow(false)
+    setShow(0)
   }
 }
 useEffect(() => {
@@ -35,12 +37,13 @@ useEffect(() => {
 
 let scrollBtn = null;
 if(show){
-  scrollBtn = (<button  className="top" onClick={goToTop}>UP</button>)
+  scrollBtn = (<AiOutlineRocket  className="top" style={{opacity: show}} onClick={goToTop}/>)
 }
   return (
     <div className="App">
      <Hero />
       <About /> 
+      <ParalaxResume/>
        <Skills/> 
        {scrollBtn}
     </div>

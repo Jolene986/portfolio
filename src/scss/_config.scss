@@ -4,13 +4,23 @@ $pink:#db1762;
 $text-color:#fce5f5;
 $primary-color: #b808a0;
 $blue-gray:#476084;
-$blue-green : #135f85;
+$blue: #04a7f8; //#07a9f9
 $show-header-image : true;
-$header-image : url(../images/hero1.jpg);
+$header-image : url('https://i.pinimg.com/originals/18/1a/77/181a77af0919b4c5390706c64d1f119c.jpg');
+
+
 
 /*MIXINS*/
 @mixin easeOut {
   transition: all 0.6s ease-out;
+  
+}
+@mixin textShadow {
+  text-shadow: 0 0 10px $primary-color;
+  
+}
+@mixin textShadowWhite {
+  text-shadow: 0 0 10px $text-color;
   
 }
 @mixin background{

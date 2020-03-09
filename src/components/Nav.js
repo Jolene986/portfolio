@@ -7,7 +7,7 @@ import cv from '../images/cv.pdf'
 
 const Nav = () => {
   const [showMenu, setShowMenu]= useState(false);
-  console.log(showMenu)
+ 
   const navItems = document.querySelectorAll('.nav-item');
   return (
   
@@ -26,7 +26,7 @@ const Nav = () => {
           <div className="portrait"></div>
         </div>
       <ul className={['menu-nav', showMenu?'show': null ].join(" ")}>
-        <li className={['nav-item', showMenu?'show': null ].join(" ")} >
+        <li className={['nav-item', showMenu?'show': null ].join(" ")}  >
           <Link
             className='nav-link'
             activeClass='active'
@@ -34,7 +34,8 @@ const Nav = () => {
             spy={true}
             smooth={true}
             offset={0}
-            duration={500}
+            duration={800}
+            onClick={()=>{setShowMenu(!showMenu)}}
             
           >
             Home
@@ -48,7 +49,8 @@ const Nav = () => {
             spy={true}
             smooth={true}
             offset={0}
-            duration={500}
+            duration={800}
+            onClick={()=>{setShowMenu(!showMenu)}}
           >
             About Me
           </Link>
@@ -61,7 +63,8 @@ const Nav = () => {
             spy={true}
             smooth={true}
             offset={0}
-            duration={500}
+            duration={800}
+            onClick={()=>{setShowMenu(!showMenu)}}
           >
             My Work
           </Link>
@@ -74,7 +77,8 @@ const Nav = () => {
             spy={true}
             smooth={true}
             offset={0}
-            duration={500}
+            duration={800}
+            onClick={()=>{setShowMenu(!showMenu)}}
           >
             Skills
           </Link>
@@ -87,7 +91,8 @@ const Nav = () => {
             spy={true}
             smooth={true} 
             offset={0}
-            duration={500}
+            duration={800}
+            onClick={()=>{setShowMenu(!showMenu)}}
           >
             Contact Me
           </Link>

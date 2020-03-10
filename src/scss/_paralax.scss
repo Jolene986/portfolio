@@ -1,7 +1,7 @@
 .paralax {
    position:  relative;
     width: 100vw;
-    height: 80vh;
+    height: 85vh;
     display:flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -34,8 +34,9 @@ z-index: 1;
         color:$blue;
         box-shadow: 0 0 15px #04a7f8;
         border-radius: 3px;
-        a {
+        .bold {
             color:$blue;
+            font-weight: bold;
             @include textShadowWhite;
             @include easeOut;
             &:hover {

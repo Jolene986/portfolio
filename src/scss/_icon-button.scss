@@ -93,11 +93,13 @@
   background-image: -webkit-linear-gradient(to right, #f17ba8, #b808a0, #f17ba8);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right,#62c1ef , #04a7f8,  #62c1ef); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    ;
-   padding: 0.9rem 3rem;
+   
+   padding: 0.9rem 1.9rem;
    background-size: 200%;
    background-position: left;
    @include easeOut;
    &:hover{
+    color:$text-color;
     background-position: right;
     box-shadow: 0 0 15px #04a7f8;
 

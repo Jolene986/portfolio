@@ -9,6 +9,7 @@ import './scss/app.scss';
 //extra
 import {AiFillRocket} from 'react-icons/ai' 
 import {AiOutlineRocket} from 'react-icons/ai'
+import Work from './sections/Work';
 
 
 function App() {
@@ -44,7 +45,9 @@ if(show){
      <Hero />
       <About /> 
       <ParalaxResume/>
+      <Work/>
        <Skills/> 
+      
        {scrollBtn}
     </div>
   );

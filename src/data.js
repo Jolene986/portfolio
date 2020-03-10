@@ -20,8 +20,8 @@ import { FaComments } from 'react-icons/fa';
 import { FaGamepad } from 'react-icons/fa';
 import { FaMicroscope } from 'react-icons/fa';
 import { FaRegLaughBeam } from 'react-icons/fa';
-import { FaPaw } from 'react-icons/fa';
-
+import { FaPaw } from 'react-icons/fa'; 
+import { GiCoffeeCup } from 'react-icons/gi';
 
 export const iconData = [    [{
     icon: FaHtml5,
@@ -100,8 +100,71 @@ export const iconData = [    [{
     {
         icon: FaPaw,
         text: "animal lover"
+    },
+    {
+        icon: GiCoffeeCup,
+        text: "coffe lover"
     }
-]]
+]];
 
+export const projects =[
+    {
+        name: 'BIOLOGY QUIZ',
+        project: 'http://bioloski-kviz.herokuapp.com/',
+        image: `${process.env.PUBLIC_URL}/images/my-image.jpg`,
+        code: 'https://github.com/Jolene986/zavrsni-rad'
+    },
+    {
+        name: 'ME-TRAVEL',
+        project: 'https://me-travel.netlify.com/',
+        image: `${process.env.PUBLIC_URL}/images/my-image.jpg`,
+        code: 'https://github.com/Jolene986/me-travel'
+    },
+    {
+        name: 'MY PORTFOLIO',
+        project: 'http://bioloski-kviz.herokuapp.com/',
+        image: `${process.env.PUBLIC_URL}/images/my-image.jpg`,
+        code: 'https://github.com/Jolene986/portfolio'
+    }
+]
 
+export const wpProjects = [
+    {
+        name: 'NAMESTAJ 4 SOBE',
+        project: 'https://namestaj4sobe.rs/',
+        image: `${process.env.PUBLIC_URL}/images/personal.jpg`,
+        code:''
+    },
+    {
+        name: 'MILOS COMMUNICATION',
+        project: 'https://miloscom.com/',
+        image: `${process.env.PUBLIC_URL}/images/personal.jpg`,
+        code:''
+    },
+    {
+        name: 'AREA NAMESTAJ',
+        project: 'https://areanamestaj.rs/',
+        image: `${process.env.PUBLIC_URL}/images/personal.jpg`,
+        code:''
+    },
+    {
+        name: 'SECTION ONE',
+        project: 'https://sectionone.rocks/',
+        image: `${process.env.PUBLIC_URL}/images/personal.jpg`,
+        code:''
+    },
+     {
+        name: 'CDA',
+        project: 'https://cda.co.rs/',
+        image: `${process.env.PUBLIC_URL}/images/personal.jpg`,
+        code:''
+    },
+    {
+        name: 'TC PROMENADA DIGITAL SIGNAGE',
+        project: '',
+        image: `${process.env.PUBLIC_URL}/images/personal.jpg`,
+        code:''
+    }
 
+    
+]

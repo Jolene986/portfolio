@@ -3,7 +3,7 @@
 
 }
 
-//Smaller Desktop and Laptop
+//------------------------------Smaller Desktop and Laptop---------------------------------
 @include mediaLg {
   
     #home {.heroText {
@@ -23,7 +23,7 @@
        
 }
 
-//TABLET
+//-----------------------------------TABLET---------------------------------------
 @include mediaMd {
     //HEADER AND MENU
     #home{
@@ -152,16 +152,43 @@ margin-left: 4rem;
     }
  
    }
+   //CONTACT
+   #contact {
+       padding-bottom: 1rem;
+    .contact-container {
+     .contact-left {
+         h3{
+             font-size: 1.5rem;
+         }
+         .icon-container {
+            a {
+          
+                width: 40px;
+                height: 40px;
+              box-shadow: 0 0 10px $primary-color;
+                .contact-icon {
+                  width: 20px;
+                  height: 20px;
+                  position: relative;
+                  top:1px;
+                  color:$primary-color;
+                }
+            }
+         }
+     }
+    }
+   }
    //SCROLL TO TOP
    .top {
        width: 35px;
        height: 35px;
+       box-shadow: 0 0 10px $primary-color;
    }
 }
    
     
 
-//SMARTPHONE
+//-------------------------SMARTPHONE---------------------------
 @include mediaSm {
     //HEADER AND MENU
     #home{
@@ -260,9 +287,32 @@ margin-left: 4rem;
       width: 95%;
   }
 }
+//CONTACT
+#contact {
+   height: auto;
+ .contact-container{
+    flex-direction: column;
+    margin-top: 1rem; 
+    .contact-left, .contact-right {
+        width: 100%;
+    }
+    .contact-right {
+        .form-container {
+            input, textarea {
+                padding: 0.5rem;
+            }
+        }
+
+    }
+ }
+}
 
 //BUTTONS & ICONS
- .neon-btn-dark {
+ .neon-btn-dark , .submit{
     font-size: 0.8rem;
+}
+.top {
+    bottom:48px;
+    right:20px;
 }
 }

@@ -86,7 +86,7 @@ export const iconData = [    [{
     },{
         icon: FaComments,
         text: "easy-going"
-    },,{
+    },{
         icon: FaRegLaughBeam,
         text: "humorous"
     },{
@@ -122,7 +122,7 @@ export const projects =[
     },
     {
         name: 'MY PORTFOLIO',
-        project: 'http://bioloski-kviz.herokuapp.com/',
+        project: '',
         image: `${process.env.PUBLIC_URL}/images/my-image.jpg`,
         code: 'https://github.com/Jolene986/portfolio'
     }

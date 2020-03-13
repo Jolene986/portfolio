@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 import {FaEnvelope} from 'react-icons/fa' 
  
@@ -8,7 +8,7 @@ import cv from '../images/cv.pdf'
 const Nav = () => {
   const [showMenu, setShowMenu]= useState(false);
  
-  const navItems = document.querySelectorAll('.nav-item');
+ 
   return (
   
   <>

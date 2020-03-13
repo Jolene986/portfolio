@@ -5,9 +5,14 @@ import React from 'react'
     if(code !== ''){
         link = (<a href={code} className="code-link" target="_blank" rel="noopener noreferrer"> VIEW CODE</a>)
     }
+    let live = null;
+    if(project !== ''){
+        live = ( <a href={project} className="project-link" target="_blank" rel="noopener noreferrer">VIEW PROJECT</a>)
+    }
     return (
         <div className="single-work" style={{backgroundImage : `url(${image})`}}>
-            <a href={project} className="project-link" target="_blank" rel="noopener noreferrer">{name}</a>
+            <h3>{name}</h3>
+           {live}
             {link}
         </div>
     )

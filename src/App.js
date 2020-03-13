@@ -7,9 +7,11 @@ import { ParalaxResume } from './components/ParalaxResume';
 //css
 import './scss/app.scss';
 //extra
-import {AiFillRocket} from 'react-icons/ai' 
+
 import {AiOutlineRocket} from 'react-icons/ai'
 import Work from './sections/Work';
+import Footer from './components/footer';
+import Contact from './sections/Contact';
 
 
 function App() {
@@ -47,7 +49,8 @@ if(show){
       <ParalaxResume/>
       <Work/>
        <Skills/> 
-      
+       <Contact/>
+      <Footer/>
        {scrollBtn}
     </div>
   );

@@ -11,7 +11,7 @@
         height: 50px;
         text-align: center;
         line-height: 60px;
-        background: $dark-blue;
+        background-color:lighten($dark-blue, 10) ;
         border-radius: 50%;
         font-size: 30px;
         color: $text-color;

@@ -1,12 +1,19 @@
 // Widescreens desktop and Laptop
 @include mediaXl {
+     /*SKILLS*/
+     #skills {
+      
+        
+       
+}
 
 }
 
 //------------------------------Smaller Desktop and Laptop---------------------------------
 @include mediaLg {
   
-    #home {.heroText {
+    #home {
+        .heroText {
         padding: 0;
         line-height: 1;
       
@@ -19,8 +26,19 @@
               text-shadow: none;
           }
       } 
-    }  }   
+    } 
+ } 
+    /*SKILLS*/
+    #skills {
+      
+        .skill-container{
+           
+           img{
+               width: 285px;
+            }
+        }
        
+}
 }
 
 //-----------------------------------TABLET---------------------------------------
@@ -57,6 +75,8 @@
             background: url('../images/profile-small.png');
             width: 150px;
             height: 150px;
+            background-size: contain;
+            background-position: center center;
         }
     }
     .menu-nav {
@@ -234,6 +254,7 @@ margin-left: 4rem;
        width: 100%;
        padding: 0.2rem;
        margin-top: 1rem;
+       margin-left: 0;
    }
    .resume {
        width: 100%;

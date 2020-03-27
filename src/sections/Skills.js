@@ -2,8 +2,8 @@ import React, {useState} from 'react';
 import {iconData as data} from '../data'
 
 //images
-import skills from '../images/skills.jpg';
-import personal from '../images/personal.jpg'
+import skills from '../images/skills.png';
+import personal from '../images/personal.png'
 
  const Skills = () => {
 const[id, setId]= useState('skills');

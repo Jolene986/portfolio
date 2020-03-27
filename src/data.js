@@ -111,19 +111,19 @@ export const projects =[
     {
         name: 'BIOLOGY QUIZ',
         project: 'http://bioloski-kviz.herokuapp.com/',
-        image: `${process.env.PUBLIC_URL}/images/my-image.jpg`,
+        image: `${process.env.PUBLIC_URL}/images/kviz.jpg`,
         code: 'https://github.com/Jolene986/zavrsni-rad'
     },
     {
         name: 'ME-TRAVEL',
         project: 'https://me-travel.netlify.com/',
-        image: `${process.env.PUBLIC_URL}/images/my-image.jpg`,
+        image: `${process.env.PUBLIC_URL}/images/travel.jpg`,
         code: 'https://github.com/Jolene986/me-travel'
     },
     {
         name: 'MY PORTFOLIO',
         project: '',
-        image: `${process.env.PUBLIC_URL}/images/my-image.jpg`,
+        image: `${process.env.PUBLIC_URL}/images/portfolio.jpg`,
         code: 'https://github.com/Jolene986/portfolio'
     }
 ]
@@ -132,37 +132,37 @@ export const wpProjects = [
     {
         name: 'NAMESTAJ 4 SOBE',
         project: 'https://namestaj4sobe.rs/',
-        image: `${process.env.PUBLIC_URL}/images/personal.jpg`,
+        image: `${process.env.PUBLIC_URL}/images/4sobe.jpg`,
         code:''
     },
     {
         name: 'MILOS COMMUNICATION',
         project: 'https://miloscom.com/',
-        image: `${process.env.PUBLIC_URL}/images/personal.jpg`,
+        image: `${process.env.PUBLIC_URL}/images/milos.jpg`,
         code:''
     },
     {
         name: 'AREA NAMESTAJ',
         project: 'https://areanamestaj.rs/',
-        image: `${process.env.PUBLIC_URL}/images/personal.jpg`,
+        image: `${process.env.PUBLIC_URL}/images/area.jpg`,
         code:''
     },
     {
         name: 'SECTION ONE',
         project: 'https://sectionone.rocks/',
-        image: `${process.env.PUBLIC_URL}/images/personal.jpg`,
+        image: `${process.env.PUBLIC_URL}/images/section.jpg`,
         code:''
     },
      {
         name: 'CDA',
         project: 'https://cda.co.rs/',
-        image: `${process.env.PUBLIC_URL}/images/personal.jpg`,
+        image: `${process.env.PUBLIC_URL}/images/cda.jpg`,
         code:''
     },
     {
         name: 'TC PROMENADA DIGITAL SIGNAGE',
         project: '',
-        image: `${process.env.PUBLIC_URL}/images/personal.jpg`,
+        image: `${process.env.PUBLIC_URL}/images/tcp.jpg`,
         code:''
     }
 

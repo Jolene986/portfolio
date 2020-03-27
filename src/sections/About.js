@@ -1,5 +1,5 @@
 import React from 'react'
-//import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollAnimation from 'react-animate-on-scroll';
 import img from '../images/about.jpg'
 
  const About = () => {
@@ -19,9 +19,9 @@ challenge.</p>
   new people, exchange knowledge and opinions, acquire
   new <span>skills</span> and learn new tricks and techniques.</p></div>
 <div className="about-img">
-{/*<ScrollAnimation animateIn="slideInRight"  duration='2s'>*/}
+<ScrollAnimation animateIn="slideInRight"  duration={2} >
         <img src={img} alt="about" />
-       {/**</ScrollAnimation> */} 
+       </ScrollAnimation>
         </div>
       </div>
 

@@ -38,7 +38,10 @@ if (id==='personality'){
 })}
 
   </div>
-  <img src={img} alt="" width= '350' height='450px'/>
+  <div className="skill-img">
+  <img src={img} alt="" />
+  </div>
+  
   </div>
     </section>
   )

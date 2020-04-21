@@ -1,13 +1,12 @@
 // Widescreens desktop and Laptop
 @include mediaXl {
-     /*SKILLS*/
-     #skills {
-      
-        
+     #home {
+width: 101%;
+     }
        
 }
 
-}
+
 
 //------------------------------Smaller Desktop and Laptop---------------------------------
 @include mediaLg {
@@ -16,6 +15,7 @@
         .heroText {
         padding: 0;
         line-height: 1;
+        width: 100%;
       
       .icon-container a{
           width: 25px;
@@ -45,6 +45,7 @@
 @include mediaMd {
     //HEADER AND MENU
     #home{
+       
         .heroText {
           padding: 0;
         line-height: 1;
@@ -130,8 +131,14 @@ margin-left: 4rem;
      box-shadow: 0 0 10px $text-color;
     @include textShadowWhite
  }
+ h3{
+    opacity: 1;
+    padding: 0.5rem;
+   color:$text-color;
+   @include textShadowWhite
+ }
 }  
-.sinle-work {
+.single-work {
     &::before {
         background-color: rgba($dark-blue, 0.5);
     }
@@ -145,6 +152,7 @@ margin-left: 4rem;
         .skill-btns button {
             font-size: 15px;
             padding: 12px 0px;
+            width: 115%;
         }
 
         .skill-icons-container{
@@ -242,6 +250,7 @@ margin-left: 4rem;
             width: 100%;
         }
         .about-img{
+            padding-bottom: 5em;
             width: 90%;
         }
     }    

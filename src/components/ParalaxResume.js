@@ -20,7 +20,7 @@ export const ParalaxResume = () => {
           >
             JavaScript course{' '}
           </a>{' '}
-          I fell in love with React.I have a couple of non-comercial projects
+          I fell in love with React. I have a couple of non-comercial projects
           behind me, including my graduation project and comtrade internship
           project. Feel free to chek them out on my{' '}
           <a

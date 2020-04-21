@@ -16,7 +16,7 @@ import img from '../images/about.jpg'
              <span>JavaScript</span> is my language of choice,{' '}
              <span>React</span> is my passion. I just love
              <span> coding</span>. It keeps me interested, I always have
-             something new to <span>learn</span>, do or explore.I enjoy developing <span>great</span> visual and functional <span>solutions</span>.
+             something new to <span>learn</span>, do or explore. I enjoy developing <span>great</span> visual and functional <span>solutions</span>.
            </p>
            <p>
            I am{' '}

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import certificate from '../images/certificate.pdf'
-import cv from '../images/cv.pdf'
+
+
 
 export const ParalaxResume = () => {
     return (
@@ -13,7 +13,7 @@ export const ParalaxResume = () => {
           should and to offer more to their customers.<br></br>
           While attending a{' '}
           <a
-            href={certificate}
+            href={`${process.env.PUBLIC_URL}/documents/certificate.pdf`}
             target='_blank'
             className='bold-link'
             rel='noopener noreferrer'
@@ -36,7 +36,7 @@ export const ParalaxResume = () => {
         <div className='resume'>
           <h2>My Resume</h2>
           <a
-            href={cv}
+            href={`${process.env.PUBLIC_URL}/documents/cv-jovana-jovanovic.pdf`}
             target='_blank'
             className='neon-btn neon-btn-dark'
             rel='noopener noreferrer'
@@ -46,8 +46,8 @@ export const ParalaxResume = () => {
           </a>
           <p>OR</p>
           <a
-            href={cv}
-            download={cv}
+            href={`${process.env.PUBLIC_URL}/documents/cv-jovana-jovanovic.pdf`}
+            download={`${process.env.PUBLIC_URL}/documents/cv-jovana-jovanovic.pdf`}
             className='neon-btn neon-btn-dark'
             rel='noopener noreferrer'
           >

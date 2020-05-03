@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 import {FaEnvelope} from 'react-icons/fa' 
  
-import cv from '../images/cv.pdf'
+
 
 const Nav = () => {
   const [showMenu, setShowMenu]= useState(false);
@@ -98,7 +98,7 @@ const Nav = () => {
           </Link>
         </li>
          {/*DOWNLOAD BUTTON */}
-<li className={['nav-item', showMenu?'show': null ].join(" ")}><a href={cv} download={cv}><button className={['neon-btn', showMenu?'show': null ].join(" ")} > Download Resume</button></a></li>
+<li className={['nav-item', showMenu?'show': null ].join(" ")}><a href={`${process.env.PUBLIC_URL}/documents/cv-jovana-jovanovic.pdf`} download={`${process.env.PUBLIC_URL}/documents/cv-jovana-jovanovic.pdf`}><button className={['neon-btn', showMenu?'show': null ].join(" ")} > Download Resume</button></a></li>
 
  {/*CONTACT INFO */}
   <li className={['nav-item', showMenu?'show': null ].join(" ")}>{<FaEnvelope className="icon"/>}<span>EMAIL ME</span></li>

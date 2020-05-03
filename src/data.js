@@ -121,10 +121,10 @@ export const projects =[
         code: 'https://github.com/Jolene986/me-travel'
     },
     {
-        name: 'MY PORTFOLIO',
-        project: '',
-        image: `${process.env.PUBLIC_URL}/images/portfolio.jpg`,
-        code: 'https://github.com/Jolene986/portfolio'
+        name: 'FRONTEND SWAPI',
+        project: 'https://swapifront.herokuapp.com/',
+        image: `${process.env.PUBLIC_URL}/images/swapi.jpg`,
+        code: 'https://github.com/mmarkovic85/swapi-frontend'
     }
 ]
 
@@ -155,7 +155,7 @@ export const wpProjects = [
     },
      {
         name: 'CDA',
-        project: 'https://cda.co.rs/',
+        project: "",
         image: `${process.env.PUBLIC_URL}/images/cda.jpg`,
         code:''
     },

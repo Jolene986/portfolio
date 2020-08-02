@@ -109,6 +109,12 @@ export const iconData = [    [{
 
 export const projects =[
     {
+        name: 'PLANTBOOK',
+        project: 'https://plantbook-7d437.web.app/',
+        image: `${process.env.PUBLIC_URL}/images/plantbook.jpg`,
+        code: ''
+    },
+    {
         name: 'BIOLOGY QUIZ',
         project: 'http://bioloski-kviz.herokuapp.com/',
         image: `${process.env.PUBLIC_URL}/images/kviz.jpg`,
@@ -125,20 +131,11 @@ export const projects =[
         project: 'https://swapifront.herokuapp.com/',
         image: `${process.env.PUBLIC_URL}/images/swapi.jpg`,
         code: 'https://github.com/mmarkovic85/swapi-frontend'
-    }
-]
-
-export const wpProjects = [
+    },
     {
         name: 'NAMESTAJ 4 SOBE',
         project: 'https://namestaj4sobe.rs/',
         image: `${process.env.PUBLIC_URL}/images/4sobe.jpg`,
-        code:''
-    },
-    {
-        name: 'MILOS COMMUNICATION',
-        project: 'https://miloscom.com/',
-        image: `${process.env.PUBLIC_URL}/images/milos.jpg`,
         code:''
     },
     {

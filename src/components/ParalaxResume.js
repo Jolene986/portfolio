@@ -8,7 +8,7 @@ export const ParalaxResume = () => {
       <div className='paralax' id='paralax'>
         <p className='text'>
           My previous work experience consists of freelance web development in{' '}
-          <span className='bold'>Wordpress</span>.<br></br> My overall goal is to help clients to
+          <span className='bold'>WordPress</span>.<br></br> My overall goal is to help clients to
           improve their business and represent themselves as they feel they
           should and to offer more to their customers.<br></br>
           While attending a{' '}

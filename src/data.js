@@ -9,7 +9,7 @@ import {DiPhotoshop} from 'react-icons/di'
 import {FaGitAlt} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
 import {DiMongodb} from 'react-icons/di'
-import {FiHexagon} from 'react-icons/fi' 
+import {GrGraphQl} from 'react-icons/gr' 
 import {GiAtomicSlashes} from 'react-icons/gi' /*DiAtom */
 import {DiWordpress} from 'react-icons/di'
 //personal
@@ -49,7 +49,7 @@ export const iconData = [    [{
     text: "mongo db"
 },
 {
-    icon: FiHexagon,
+    icon: GrGraphQl,
     text: "GraphQL"
 },
 {
@@ -112,7 +112,7 @@ export const projects =[
         name: 'PLANTBOOK',
         project: 'https://plantbook-7d437.web.app/',
         image: `${process.env.PUBLIC_URL}/images/plantbook.jpg`,
-        code: ''
+        code: 'https://github.com/Jolene986/plantbook'
     },
     {
         name: 'BIOLOGY QUIZ',

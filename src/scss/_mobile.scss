@@ -30,13 +30,16 @@ width: 101%;
  } 
     /*SKILLS*/
     #skills {
-      
-        .skill-container{
-           
-           img{
-               width: 285px;
+        .skill-container {
+            .skill-icons-container {
+                .tooltip {
+                    .skill-icon {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
             }
-        }
+        }  
        
 }
 }
@@ -168,7 +171,7 @@ margin-left: 4rem;
               }
           } 
         }
-          img{
+          .skill-img{
               display:none;
           }
       }

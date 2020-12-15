@@ -5,7 +5,7 @@ import Favicon from '../images/favicon.ico'
 const HelmetComponent = () => {
   return (
     <Helmet>
-      {/*vata li */}
+    
       <meta property="og:title" content="Jovana Jovanovic portfolio"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://jojovanovic.tk/"/>

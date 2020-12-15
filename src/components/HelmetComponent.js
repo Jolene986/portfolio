@@ -5,10 +5,11 @@ import Favicon from '../images/favicon.ico'
 const HelmetComponent = () => {
   return (
     <Helmet>
+      {/*vata li */}
       <meta property="og:title" content="Jovana Jovanovic portfolio"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://jojovanovic.tk/"/>
-    <meta property="og:image" content={`${process.env.PUBLIC_URL}/images/share.jpg`} />
+    <meta property="og:image" content='https://jojovanovic.tk/images/share.jpg' />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="627" />
     <meta property='og:description' content='Hello! I am Jovana Web Developer, I am eager to work with and meet new people, exchange knowledge and opinions, acquire new skills and learn new tricks and techniques.
@@ -18,14 +19,10 @@ const HelmetComponent = () => {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#b808a0" />
     <meta name="description" content="Hello! I am Jovana Web Developer, I am eager to work with and meet new people, exchange knowledge and opinions, acquire new skills and learn new tricks and techniques." />
-
-    
-  
-
-    <link href="https://fonts.googleapis.com/css?family=Audiowide|Montserrat&display=swap" rel="stylesheet"/>
+   <link href="https://fonts.googleapis.com/css?family=Audiowide|Montserrat&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
 
-    {/* <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> */}
+     <link rel="manifest" href={`${process.env.PUBLIC_URL}/manifest.json`} /> 
 
     <title>Jovana Jovanovic portfolio website</title>
 

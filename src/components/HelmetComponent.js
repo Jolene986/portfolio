@@ -8,7 +8,7 @@ const HelmetComponent = () => {
       <meta property="og:title" content="Jovana Jovanovic portfolio"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://jojovanovic.tk/"/>
-    <meta property="og:image" content='https://jojovanovic.tk/static/media/share.f572e9ee.jpg' />
+    <meta property="og:image" content={`${process.env.PUBLIC_URL}/images/share.jpg`} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="627" />
     <meta property='og:description' content='Hello! I am Jovana Web Developer, I am eager to work with and meet new people, exchange knowledge and opinions, acquire new skills and learn new tricks and techniques.

@@ -9,7 +9,7 @@ const Work = () => {
   return (
     <section id="work" className="work">
       <div className="projects">
-{projects.map(item => <SingleWork key={item.name} name={item.name} project={item.project} image={item.image} code={item.code}/>)}
+{projects.map(item => <SingleWork key={item.name} name={item.name} project={item.project} image={item.image} code={item.code} tags={item.tags}/>)}
         {/* map data  into singlework */}
       </div>
       

@@ -109,58 +109,69 @@ export const iconData = [    [{
 
 export const projects =[
     {
+        name: 'UNIQUE SHOP',
+        project: 'https://unique-shop.herokuapp.com/',
+        image: `${process.env.PUBLIC_URL}/images/unique.png`,
+        code: 'https://github.com/Jolene986/unique-shop',
+        tags:['React', 'Redux', 'Styled Components', 'Stripe']
+    },
+    {
         name: 'PLANTBOOK',
         project: 'https://plantbook-7d437.web.app/',
         image: `${process.env.PUBLIC_URL}/images/plantbook.jpg`,
-        code: 'https://github.com/Jolene986/plantbook'
+        code: 'https://github.com/Jolene986/plantbook',
+        tags:['React', 'Redux', 'Material UI', 'Firebase', 'Node']
     },
     {
         name: 'BIOLOGY QUIZ',
         project: 'http://bioloski-kviz.herokuapp.com/',
         image: `${process.env.PUBLIC_URL}/images/kviz.jpg`,
-        code: 'https://github.com/Jolene986/zavrsni-rad'
+        code: 'https://github.com/Jolene986/zavrsni-rad',
+        tags:['React', 'Node', 'Express', 'MongoDB']
+        
     },
     {
         name: 'ME-TRAVEL',
         project: 'https://me-travel.netlify.com/',
         image: `${process.env.PUBLIC_URL}/images/travel.jpg`,
-        code: 'https://github.com/Jolene986/me-travel'
+        code: 'https://github.com/Jolene986/me-travel',
+        tags:['React', 'Contentful']
     },
     {
         name: 'FRONTEND SWAPI',
         project: 'https://swapifront.herokuapp.com/',
         image: `${process.env.PUBLIC_URL}/images/swapi.jpg`,
-        code: 'https://github.com/mmarkovic85/swapi-frontend'
+        code: 'https://github.com/mmarkovic85/swapi-frontend',
+        tags:['React', 'Node','Sass','Webpack']
     },
     {
         name: 'NAMESTAJ 4 SOBE',
         project: 'https://namestaj4sobe.rs/',
         image: `${process.env.PUBLIC_URL}/images/4sobe.jpg`,
+        tags:['WordPress'],
         code:''
     },
     {
         name: 'AREA NAMESTAJ',
         project: 'https://areanamestaj.rs/',
         image: `${process.env.PUBLIC_URL}/images/area.jpg`,
-        code:''
+        code:'',
+        tags:['WordPress']
     },
-    {
-        name: 'SECTION ONE',
-        project: 'https://sectionone.rocks/',
-        image: `${process.env.PUBLIC_URL}/images/section.jpg`,
-        code:''
-    },
+   
      {
         name: 'CDA',
         project: "",
         image: `${process.env.PUBLIC_URL}/images/cda.jpg`,
-        code:''
+        code:'',
+        tags:['SEO', 'WordPress']
     },
     {
-        name: 'TC PROMENADA DIGITAL SIGNAGE',
+        name: 'TC PROMENADA ',
         project: '',
         image: `${process.env.PUBLIC_URL}/images/tcp.jpg`,
-        code:''
+        code:'',
+        tags:[ 'Digital signage', 'WordPress']
     }
 
     

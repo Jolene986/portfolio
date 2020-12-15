@@ -51,10 +51,10 @@ import {MdEmail} from 'react-icons/md'
           <input type="hidden" name="form-name" value="contact"  />
          
           
-             <input type="text" name="name" placeholder="Name"/>
+             <input type="text" name="name" placeholder="Name" required/>
           
         
-          <input type="email" name="email" placeholder="Email"/>
+          <input type="email" name="email" placeholder="Email" required/>
           <textarea name="message" placeholder="Message"></textarea>
           <button type="submit" className="neon-btn submit">Send</button>
         </div>

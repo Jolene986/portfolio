@@ -1,12 +1,16 @@
 // Widescreens desktop and Laptop
-@include mediaXl {
-     #home {
-width: 101%;
-     }
-       
+@include mediaXXl {
+    #skills .skill-container .skill-img img {
+        top:34%;
+    }      
 }
 
-
+@include mediaXl {
+    #skills .skill-container .skill-img img {
+        width: 94%;
+        top:10%;
+    }      
+}
 
 //------------------------------Smaller Desktop and Laptop---------------------------------
 @include mediaLg {

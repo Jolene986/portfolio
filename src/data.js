@@ -9,8 +9,8 @@ import {DiPhotoshop} from 'react-icons/di'
 import {FaGitAlt} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
 import {DiMongodb} from 'react-icons/di'
-import {GrGraphQl} from 'react-icons/gr' 
-import {GiAtomicSlashes} from 'react-icons/gi' /*DiAtom */
+import { SiGraphql} from 'react-icons/si' /**GrGraphQl */
+import {SiRedux} from 'react-icons/si' 
 import {DiWordpress} from 'react-icons/di'
 //personal
 import { FaPeopleCarry } from 'react-icons/fa';
@@ -38,7 +38,7 @@ export const iconData = [    [{
     icon: FaReact,
     text: "react"
 },{
-    icon: GiAtomicSlashes,
+    icon: SiRedux,
     text: "redux"
 },{
     icon: FaNodeJs,
@@ -49,7 +49,7 @@ export const iconData = [    [{
     text: "mongo db"
 },
 {
-    icon: GrGraphQl,
+    icon:  SiGraphql,
     text: "GraphQL"
 },
 {

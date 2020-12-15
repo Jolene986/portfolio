@@ -1,9 +1,13 @@
 import React, {useState,useEffect} from 'react';
-//sections $ components
+
+//sections & components
+
+import HelmetComponent from './components/HelmetComponent'
 import Hero from './sections/Hero'
 import About from './sections/About'
 import Skills from './sections/Skills';
 import { ParalaxResume } from './components/ParalaxResume';
+
 //css
 import './scss/app.scss';
 //extra
@@ -44,6 +48,7 @@ if(show){
 }
   return (
     <div className="App">
+<HelmetComponent/>
      <Hero />
       <About /> 
       <ParalaxResume/>

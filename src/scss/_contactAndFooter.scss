@@ -1,8 +1,11 @@
 #contact {
+    position: relative;
+    z-index: 2;
+    background-color: $dark-blue;
     color:$text-color;
     height:calc(100vh - 70px);
     .contact-container {
-        margin-top: 4rem;
+        padding-top: 4rem;
 display:flex;
 justify-content: space-evenly;
 align-items: flex-start;

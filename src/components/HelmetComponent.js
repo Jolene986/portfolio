@@ -12,8 +12,8 @@ const HelmetComponent = () => {
     <meta property="og:image" content='https://jojovanovic.tk/images/share.jpg' />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="627" />
-    <meta property='og:description' content='Hello! I am Jovana Web Developer, I am eager to work with and meet new people, exchange knowledge and opinions, acquire new skills and learn new tricks and techniques.
-    '/>
+    <meta property='og:description' content="Hello! I am Jovana Web Developer, and this is my personal website. You can take a look at my portfolio, download my CV and see how you can contact me. Let's build something great together!
+    "/>
       <meta charset="utf-8" />
     <link rel="icon" href={Favicon}/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />

@@ -111,7 +111,7 @@ export const projects =[
     {
         name: 'UNIQUE SHOP',
         project: 'https://unique-shop.herokuapp.com/',
-        image: `${process.env.PUBLIC_URL}/images/unique.png`,
+        image: `${process.env.PUBLIC_URL}/images/unique.jpg`,
         code: 'https://github.com/Jolene986/unique-shop',
         tags:['React', 'Redux', 'Styled Components', 'Stripe']
     },

@@ -10,10 +10,13 @@ const HelmetComponent = () => {
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://jojovanovic.tk/"/>
     <meta property="og:image" content='https://jojovanovic.tk/images/share.jpg' />
+    <meta property="og:image:url" content='https://jojovanovic.tk/images/share.jpg' />
+    <mata property="og:image:type" content="image/jpeg"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="627" />
     <meta property='og:description' content="Hello! I am Jovana Web Developer, and this is my personal website. You can take a look at my portfolio, download my CV and see how you can contact me. Let's build something great together!
     "/>
+    <meta name="twitter:card" content="summary_large_image"></meta>
       <meta charset="utf-8" />
     <link rel="icon" href={Favicon}/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />

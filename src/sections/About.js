@@ -8,14 +8,12 @@ import img from '../images/about.jpg'
        <div className='about-container'>
          <div className='about-text' id='about-text'>
            <p>
-             Highly <span>organized</span>, passionate and driven. I enjoy games
-             and puzzles. I am a <span>problem solver</span>, so naturally I
-             like a good challenge.
+             Highly <span>organized</span>, dedicated and driven. I enjoy everything <span>web-related</span>, especially creating beautiful and functional web sites and applications.
            </p>
            <p>
              <span>JavaScript</span> is my language of choice,{' '}
              <span>React</span> is my passion. I just love
-             <span> coding</span>. It keeps me interested, I always have
+             <span> creating for the web</span>. It keeps me interested, I always have
              something new to <span>learn</span>, do or explore. I enjoy developing <span>great</span> visual and functional <span>solutions</span>.
            </p>
            <p>

@@ -148,7 +148,7 @@ export const projects =[
         name: 'NAMESTAJ 4 SOBE',
         project: 'https://namestaj4sobe.rs/',
         image: `${process.env.PUBLIC_URL}/images/4sobe.jpg`,
-        tags:['WordPress'],
+        tags:['WordPress','SEO'],
         code:''
     },
     {
@@ -156,7 +156,7 @@ export const projects =[
         project: 'https://areanamestaj.rs/',
         image: `${process.env.PUBLIC_URL}/images/area.jpg`,
         code:'',
-        tags:['WordPress']
+        tags:['WordPress','Branding']
     },
    
      {

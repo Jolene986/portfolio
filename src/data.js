@@ -161,10 +161,10 @@ export const projects =[
    
      {
         name: 'CDA',
-        project: "",
+        project: "https://cda.co.rs/",
         image: `${process.env.PUBLIC_URL}/images/cda.jpg`,
         code:'',
-        tags:['SEO', 'WordPress']
+        tags:['HTML','CSS','JavaScript', 'WordPress', 'SEO']
     },
     {
         name: 'TC PROMENADA ',

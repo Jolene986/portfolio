@@ -12,6 +12,7 @@ import {DiMongodb} from 'react-icons/di'
 import { SiGraphql} from 'react-icons/si' /**GrGraphQl */
 import {SiRedux} from 'react-icons/si' 
 import {DiWordpress} from 'react-icons/di'
+import {GrGatsbyjs} from 'react-icons/gr
 //personal
 import { FaPeopleCarry } from 'react-icons/fa';
 import { MdSyncProblem } from 'react-icons/md';
@@ -37,6 +38,10 @@ export const iconData = [    [{
 },{
     icon: FaReact,
     text: "react"
+},
+                              {
+    icon: GrGatsbyjs ,
+    text: "gatsby"
 },{
     icon: SiRedux,
     text: "redux"
@@ -99,11 +104,11 @@ export const iconData = [    [{
     },
     {
         icon: FaPaw,
-        text: "animal lover"
+        text: "loves animals"
     },
     {
         icon: GiCoffeeCup,
-        text: "coffe lover"
+        text: "can't go without"
     }
 ]];
 
